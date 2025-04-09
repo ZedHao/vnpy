@@ -3,7 +3,7 @@ Event-driven framework of VeighNa framework.
 """
 
 from collections import defaultdict
-from collections.abc import Callable
+from typing import Callable
 from queue import Empty, Queue
 from threading import Thread
 from time import sleep
@@ -26,7 +26,8 @@ class Event:
         self.data: Any = data
 
 
-# Defines handler function to be used in event engine.
+# Defines handler function to be used in event engine.'
+
 HandlerType = Callable[[Event], None]
 
 
