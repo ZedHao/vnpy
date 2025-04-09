@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from vnpy.vnpy.event import Event, EventEngine
+from vnpy.event import Event, EventEngine
 from .event import (
     EVENT_TICK,
     EVENT_ORDER,

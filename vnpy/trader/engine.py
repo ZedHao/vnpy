@@ -8,7 +8,7 @@ from threading import Thread
 from typing import TypeVar
 from collections.abc import Callable
 
-from vnpy.vnpy.event import Event, EventEngine
+from vnpy.event import Event, EventEngine
 from .app import BaseApp
 from .event import (
     EVENT_TICK,

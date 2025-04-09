@@ -1,6 +1,6 @@
-from vnpy.vnpy.event import EventEngine
-from vnpy.vnpy.trader.engine import MainEngine
-from vnpy.vnpy.trader.ui import MainWindow, create_qapp
+from vnpy.event import EventEngine
+from vnpy.trader.engine import MainEngine
+from vnpy.trader.ui import MainWindow, create_qapp
 
 from vnpy_ctp import CtpGateway
 from vnpy_ctastrategy import CtaStrategyApp
